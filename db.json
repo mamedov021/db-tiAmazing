@@ -82,18 +82,10 @@
       "category": "layihe",
       "name": "Lorem ipsum",
       "images": [
-        {
-          "img": "./media/lorem2/1.jpeg"
-        },
-        {
-          "img": "./media/lorem2/2.jpeg"
-        },
-        {
-          "img": "./media/lorem2/3.jpeg"
-        },
-        {
-          "img": "./media/lorem2/4.jpg"
-        }
+        "./media/lorem2/1.jpeg",
+        "./media/lorem2/2.jpeg",
+        "./media/lorem2/3.jpeg",
+        "./media/lorem2/4.jpg"
       ]
     },
     {
