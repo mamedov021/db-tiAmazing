@@ -1,9 +1,402 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "service": [
+    {
+      "id": 1,
+      "img": "./media/img1.jpg",
+      "header": "İnteryer dizayn",
+      "info": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir."
+    },
+    {
+      "id": 2,
+      "img": "./media/img2.jpg",
+      "header": " Eksteryer və Landşaft dizayn",
+      "info": "Eksteryer dedikde ilk öncə ağıla gələn layihənin fasad görünüşüdür. Fasad dizaynında mütləq olaraq bina ölçüləri nəzərə alınmalıdır. Bu ölçülərə əsasən də üslub və bu üsluba uyğun materialı düzgün seçmək lazımdır."
+    },
+    {
+      "id": 3,
+      "img": "./media/img3.jpg",
+      "header": " Ticarət Obyektlərinin dizaynı ",
+      "info": "Hər bir məkanın özünə xas xüsusiyyətləri vardır. Mütləqdir ki, burada məkanın bölgüsü, mebel yerləşimi düzgün təhlil olunmalı və üsluba uyğun dizayn edilməlidir. "
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "jobs": [
+    {
+      "id": "01",
+      "name": "Ölçü Götürülməsi",
+      "info": "Layihələrin mövcud vəziyyətinin mövcud vəziyyətinin ölçülərinin götürülməsi, qeydlərin aparılması"
+    },
+    {
+      "id": "02",
+      "name": "Bölgü planı",
+      "info": "Məkanın beton elementlərini eləcə də havalandırma santexnika şaxtalarının yerlərini nəzərə alaraq müştərinin də istəklərinə uyğun "
+    },
+    {
+      "id": "03",
+      "name": "Mebel həlli planı",
+      "info": " Bərpa planından sonra yenilənmiş layihənin otaq bölgülərinə əsasən müştərinin istəyi ilə birgə müəyyən standartları da nəzərə alaraq mebel yerləşiminin işlənməsi. "
+    },
+    {
+      "id": "04",
+      "name": " Elektrik və santexnika təchizatı planı",
+      "info": " Mebel həlli planı hazır olduqdan sonra yerləşimə əsasən elektrik və santexnika ölçülərinin işlənib hazırlanması."
+    },
+    {
+      "id": "05",
+      "name": "Məkanın dizayn və vizualizasiyası",
+      "info": " Yerləşim və mebel həlli planı hazır olduqdan sonra müştərinin də müəyyən istəkləri nəzərə alınaraq düzgün üslub seçimi ilə məkanın 3D, vizualizasiya işlərinin görülməsi."
+    },
+    {
+      "id": "06",
+      "name": "Tavan ölçüləri",
+      "info": "  Təsdiq olunmuş dizayna əsasən tavan alçıpan və elektrik ölçü xətlərinin düzgün işlənməsi.2"
+    },
+    {
+      "id": "07",
+      "name": "Kosmetik işlərin görülməsi",
+      "info": "Dizaynda istifadə olunmuş bütün materialların ölçülərinin çıxarılması və matrial alımı üçün bütün məlumatların hazırlanması"
+    },
+    {
+      "id": "08",
+      "name": "Dekor və mebel",
+      "info": " Dizaynda istifadə olunan bütün dekor və mebellərin ölçülərinin düzgün çıxarılması və müştərinin sifarişi üçün mebel dükanına göndərilməsi. "
+    }
   ],
-  "profile": { "name": "typicode" }
+  "portfolio": [
+    {
+      "id": "1",
+      "img": "./media/portfolio/p1.jpg",
+      "category": "interyer",
+      "images": [
+        {
+          "img": "./media/lorem/lorem1.png"
+        },
+        {
+          "img": "./media/lorem/lorem2.png"
+        },
+        {
+          "img": "./media/lorem/lorem3.png"
+        },
+        {
+          "img": "./media/lorem/lorem4.png"
+        },
+        {
+          "img": "./media/lorem/lorem5.png"
+        },
+        {
+          "img": "./media/lorem/lorem6.png"
+        }
+      ],
+      "name": "Lorem ipsum"
+    },
+    {
+      "id": "2",
+      "img": "./media/portfolio/p2.jpg",
+      "category": "layihe",
+      "name": "Lorem ipsum",
+      "images": [
+        {
+          "img": "./media/lorem2/1.jpeg"
+        },
+        {
+          "img": "./media/lorem2/2.jpeg"
+        },
+        {
+          "img": "./media/lorem2/3.jpeg"
+        },
+        {
+          "img": "./media/lorem2/4.jpg"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "img": "./media/portfolio/p3.jpg",
+      "category": "ticaret",
+      "name": "Lorem ipsum"
+    },
+    {
+      "id": "4",
+      "img": "./media/portfolio/p4.jpg",
+      "category": "interyer",
+      "name": "Lorem ipsum"
+    },
+    {
+      "id": "5",
+      "img": "./media/portfolio/p5.jpg",
+      "category": "interyer",
+      "name": "Lorem ipsum"
+    },
+    {
+      "id": "6",
+      "img": "./media/portfolio/p6.jpg",
+      "category": "eksteryer",
+      "name": "Lorem ipsum"
+    },
+    {
+      "id": "7",
+      "img": "./media/portfolio/p7.jpg",
+      "category": "eksteryer",
+      "name": "Lorem ipsum"
+    },
+    {
+      "id": "8",
+      "img": "./media/portfolio/p8.jpg",
+      "name": "Lorem ipsum",
+      "category": "eksteryer"
+    },
+    {
+      "id": "9",
+      "img": "./media/portfolio/p9.jpg",
+      "category": "interyer",
+      "name": "Lorem ipsum"
+    },
+    {
+      "id": "10",
+      "img": "./media/portfolio/p10.jpg",
+      "category": "layihe",
+      "name": "Lorem ipsum"
+    },
+    {
+      "id": "11",
+      "img": "./media/portfolio/p11.jpg",
+      "category": "ticaret",
+      "name": "Lorem ipsum"
+    },
+    {
+      "id": "12",
+      "img": "./media/portfolio/p12.jpg",
+      "category": "ticaret",
+      "name": "Lorem ipsum"
+    },
+    {
+      "id": "13",
+      "img": "./media/portfolio/p13.jpg",
+      "category": "layihe",
+      "name": "Lorem ipsum"
+    }
+  ],
+  "our_team": [
+    {
+      "id": 1,
+      "img": "./media/our_team/1.png",
+      "name": "Adam Myller",
+      "prof": "Designer"
+    },
+    {
+      "id": 2,
+      "img": "./media/our_team/2.png",
+      "name": "Adam Myller",
+      "prof": "Designer"
+    },
+    {
+      "id": 3,
+      "img": "./media/our_team/3.png",
+      "name": "Adam Myller",
+      "prof": "Designer"
+    },
+    {
+      "id": 4,
+      "img": "./media/our_team/4.png",
+      "name": "Adam Myller",
+      "prof": "Designer"
+    },
+    {
+      "id": 5,
+      "img": "./media/our_team/5.png",
+      "name": "Adam Myller",
+      "prof": "Designer"
+    },
+    {
+      "id": 6,
+      "img": "./media/our_team/6.png",
+      "name": "Adam Myller",
+      "prof": "Designer"
+    },
+    {
+      "id": 7,
+      "img": "./media/our_team/7.png",
+      "name": "Adam Myller",
+      "prof": "Designer"
+    },
+    {
+      "id": 8,
+      "img": "./media/our_team/8.png",
+      "name": "Adam Myller",
+      "prof": "Designer"
+    }
+  ],
+  "lorem": [
+    {
+      "id": 1,
+      "img": "./media/lorem/lorem1.png"
+    },
+    {
+      "id": 2,
+      "img": "./media/lorem/lorem2.png"
+    },
+    {
+      "id": 3,
+      "img": "./media/lorem/lorem3.png"
+    },
+    {
+      "id": 4,
+      "img": "./media/lorem/lorem4.png"
+    },
+    {
+      "id": 5,
+      "img": "./media/lorem/lorem5.png"
+    },
+    {
+      "id": 6,
+      "img": "./media/lorem/lorem6.png"
+    }
+  ],
+  "post": [
+    {
+      "fname": "mkim",
+      "lname": "",
+      "email": "",
+      "tel": "",
+      "message": "",
+      "id": 1
+    }
+  ],
+  "connect_tel": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "name": "",
+      "tel": "",
+      "id": 3
+    },
+    {
+      "name": "joa f",
+      "tel": "a jfink;f v",
+      "id": 4
+    },
+    {
+      "name": "",
+      "tel": "",
+      "id": 5
+    },
+    {
+      "name": "",
+      "tel": "",
+      "id": 6
+    },
+    {
+      "name": "kj kn",
+      "tel": "",
+      "id": 7
+    },
+    {
+      "name": "kj kn",
+      "tel": "",
+      "id": 8
+    },
+    {
+      "name": "kj kn",
+      "tel": "",
+      "id": 9
+    },
+    {
+      "name": "kj kn",
+      "tel": "",
+      "id": 10
+    },
+    {
+      "name": "kj kn",
+      "tel": "",
+      "id": 11
+    },
+    {
+      "name": "",
+      "tel": "",
+      "id": 12
+    },
+    {
+      "name": "",
+      "tel": "",
+      "id": 13
+    },
+    {
+      "name": "",
+      "tel": "",
+      "id": 14
+    },
+    {
+      "name": "",
+      "tel": "",
+      "id": 15
+    },
+    {
+      "name": "",
+      "tel": "",
+      "id": 16
+    },
+    {
+      "name": "",
+      "tel": "",
+      "id": 17
+    },
+    {
+      "name": "salam salaaab",
+      "tel": "",
+      "id": 18
+    },
+    {
+      "name": "salam salaaab",
+      "tel": "",
+      "id": 19
+    },
+    {
+      "name": "salam salaaab",
+      "tel": "",
+      "id": 20
+    },
+    {
+      "name": "salam salaaab",
+      "tel": "",
+      "id": 21
+    },
+    {
+      "name": "",
+      "tel": "",
+      "id": 22
+    },
+    {
+      "name": "",
+      "tel": "",
+      "id": 23
+    },
+    {
+      "name": "",
+      "tel": "",
+      "id": 24
+    },
+    {
+      "name": "",
+      "tel": "",
+      "id": 25
+    },
+    {
+      "name": "",
+      "tel": "",
+      "id": 26
+    },
+    {
+      "name": "'lalfns",
+      "tel": "nojjj m",
+      "id": 27
+    },
+    {
+      "name": "'lalfns",
+      "tel": "nojjj m",
+      "id": 28
+    }
+  ]
 }
