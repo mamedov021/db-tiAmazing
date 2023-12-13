@@ -251,152 +251,33 @@
       "img": "./media/lorem/lorem6.png"
     }
   ],
-  "post": [
+  "sevices_type": [
     {
-      "fname": "mkim",
-      "lname": "",
-      "email": "",
-      "tel": "",
-      "message": "",
-      "id": 1
+      "id": 1,
+      "name": "Interyer dizayn",
+      "img":"/media/interyer.png",
+      "info":"Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir. İllərdir günümüzə qədər gələn və daxili dizaynlarda istifadə edilən üslubların məkana görə düzgün seçimi vacib amillərdəndir."
+     
+    },
+    {
+      "id": 2,
+      "name": "Eksteryer dizayn",
+      "img":"/media/eksteryer.png",
+      "info":"Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir. İllərdir günümüzə qədər gələn və daxili dizaynlarda istifadə edilən üslubların məkana görə düzgün seçimi vacib amillərdəndir."
+     
+    },
+    {
+      "id": 3,
+      "name": "Ticarət dizayn",
+      "img":"./media/img3.jpg",
+      "info":"Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir. İllərdir günümüzə qədər gələn və daxili dizaynlarda istifadə edilən üslubların məkana görə düzgün seçimi vacib amillərdəndir."
+     
     }
   ],
+  "post": [
+    
+  ],
   "connect_tel": [
-    {
-      "id": 1
-    },
-    {
-      "id": 2
-    },
-    {
-      "name": "",
-      "tel": "",
-      "id": 3
-    },
-    {
-      "name": "joa f",
-      "tel": "a jfink;f v",
-      "id": 4
-    },
-    {
-      "name": "",
-      "tel": "",
-      "id": 5
-    },
-    {
-      "name": "",
-      "tel": "",
-      "id": 6
-    },
-    {
-      "name": "kj kn",
-      "tel": "",
-      "id": 7
-    },
-    {
-      "name": "kj kn",
-      "tel": "",
-      "id": 8
-    },
-    {
-      "name": "kj kn",
-      "tel": "",
-      "id": 9
-    },
-    {
-      "name": "kj kn",
-      "tel": "",
-      "id": 10
-    },
-    {
-      "name": "kj kn",
-      "tel": "",
-      "id": 11
-    },
-    {
-      "name": "",
-      "tel": "",
-      "id": 12
-    },
-    {
-      "name": "",
-      "tel": "",
-      "id": 13
-    },
-    {
-      "name": "",
-      "tel": "",
-      "id": 14
-    },
-    {
-      "name": "",
-      "tel": "",
-      "id": 15
-    },
-    {
-      "name": "",
-      "tel": "",
-      "id": 16
-    },
-    {
-      "name": "",
-      "tel": "",
-      "id": 17
-    },
-    {
-      "name": "salam salaaab",
-      "tel": "",
-      "id": 18
-    },
-    {
-      "name": "salam salaaab",
-      "tel": "",
-      "id": 19
-    },
-    {
-      "name": "salam salaaab",
-      "tel": "",
-      "id": 20
-    },
-    {
-      "name": "salam salaaab",
-      "tel": "",
-      "id": 21
-    },
-    {
-      "name": "",
-      "tel": "",
-      "id": 22
-    },
-    {
-      "name": "",
-      "tel": "",
-      "id": 23
-    },
-    {
-      "name": "",
-      "tel": "",
-      "id": 24
-    },
-    {
-      "name": "",
-      "tel": "",
-      "id": 25
-    },
-    {
-      "name": "",
-      "tel": "",
-      "id": 26
-    },
-    {
-      "name": "'lalfns",
-      "tel": "nojjj m",
-      "id": 27
-    },
-    {
-      "name": "'lalfns",
-      "tel": "nojjj m",
-      "id": 28
-    }
+    
   ]
 }
