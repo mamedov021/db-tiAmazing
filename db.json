@@ -67,12 +67,24 @@
       "img": "./media/portfolio/p1.jpg",
       "category": "interyer",
       "images": [
-        "./media/lorem/lorem1.png",
-        "./media/lorem/lorem2.png",
-        "./media/lorem/lorem3.png",
-        "./media/lorem/lorem4.png",
-        "./media/lorem/lorem5.png",
-        "./media/lorem/lorem6.png"
+        {
+          "img": "./media/lorem/lorem1.png"
+        },
+        {
+          "img": "./media/lorem/lorem2.png"
+        },
+        {
+          "img": "./media/lorem/lorem3.png"
+        },
+        {
+          "img": "./media/lorem/lorem4.png"
+        },
+        {
+          "img": "./media/lorem/lorem5.png"
+        },
+        {
+          "img": "./media/lorem/lorem6.png"
+        }
       ],
       "name": "Lorem ipsum"
     },
@@ -243,22 +255,29 @@
     {
       "id": 1,
       "name": "Interyer dizayn",
-      "img": "/media/interyer.png",
-      "info": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir. İllərdir günümüzə qədər gələn və daxili dizaynlarda istifadə edilən üslubların məkana görə düzgün seçimi vacib amillərdəndir."
+      "img":"/media/interyer.png",
+      "info":"Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir. İllərdir günümüzə qədər gələn və daxili dizaynlarda istifadə edilən üslubların məkana görə düzgün seçimi vacib amillərdəndir."
+     
     },
     {
       "id": 2,
       "name": "Eksteryer dizayn",
-      "img": "/media/eksteryer.jpeg",
-      "info": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir. İllərdir günümüzə qədər gələn və daxili dizaynlarda istifadə edilən üslubların məkana görə düzgün seçimi vacib amillərdəndir."
+      "img":"/media/eksteryer.jpeg",
+      "info":"Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir. İllərdir günümüzə qədər gələn və daxili dizaynlarda istifadə edilən üslubların məkana görə düzgün seçimi vacib amillərdəndir."
+     
     },
     {
       "id": 3,
       "name": "Ticarət dizayn",
-      "img": "./media/img3.jpg",
-      "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      "img":"./media/img3.jpg",
+      "info":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."  
+     
     }
   ],
-  "post": [],
-  "connect_tel": []
+  "post": [
+    
+  ],
+  "connect_tel": [
+    
+  ]
 }
