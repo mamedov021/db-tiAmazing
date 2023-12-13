@@ -67,11 +67,7 @@
       "img": "./media/portfolio/p1.jpg",
       "category": "interyer",
       "images": [
-        "./media/lorem/lorem1.png",
-        "./media/lorem/lorem2.png",
-        "./media/lorem/lorem3.png",
-        "./media/lorem/lorem4.png",
-        "./media/lorem/lorem5.png",
+
         "./media/lorem/lorem6.png"
       ],
       "name": "Lorem ipsum"
